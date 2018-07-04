@@ -15,12 +15,7 @@ $header-shadow-color: rgba(0, 0, 0, 0.5);
   background-color: $header-bg-color;
   box-shadow: 0 3px 6px 0 $header-shadow-color;
 
-  &-logo {
-    display: flex;
-
-    .img-responsive {
-      width: auto;
-      height: 60px;
-    }
-  }
+  &-logo {display: flex;}
+  
+  .slideshow-icon {font-size: 3rem;}
 }
