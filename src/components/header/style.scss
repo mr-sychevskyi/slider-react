@@ -1,0 +1,26 @@
+$header-color: rgba(255, 255, 255, .8);
+$header-bg-color: rgba(40, 40, 40, .8);
+$header-shadow-color: rgba(0, 0, 0, 0.5);
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+
+  font-size: 1.8rem;
+  text-transform: uppercase;
+
+  color: $header-color;
+  background-color: $header-bg-color;
+  box-shadow: 0 3px 6px 0 $header-shadow-color;
+
+  &-logo {
+    display: flex;
+
+    .img-responsive {
+      width: auto;
+      height: 60px;
+    }
+  }
+}

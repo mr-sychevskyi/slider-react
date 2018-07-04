@@ -1,0 +1,34 @@
+$slide-caption-bg-color: rgba(0, 0, 0, .5);
+$slide-caption-text-color: rgba(255, 255, 255, .8);
+
+.slide {
+  position: relative;
+
+  display: none;
+  width: inherit;
+  height: inherit;
+
+  letter-spacing: normal;
+  transition: transform .4s;
+
+  &-caption {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 5px 10px;
+    background-color: $slide-caption-bg-color;
+
+    &__text {
+      color: $slide-caption-text-color;
+      font-size: 2.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: normal;
+      white-space: nowrap;
+    }
+  }
+
+  &-current {display: flex;}
+}

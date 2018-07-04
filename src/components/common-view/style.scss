@@ -1,0 +1,93 @@
+$main-bg-color: #fafafa;
+
+$grey-color: #777;
+$light-color: rgba(255, 255, 255, .8);
+$dark-color: #333;
+
+$btn-arrow-color: rgba(255, 255, 255, 1);
+$btn-arrow-hover-color: rgba(0, 0, 0, .3);
+
+// Common
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+$body-font-size: 16px;
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: $body-font-size;
+  font-weight: 400;
+
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+a,
+button,
+input,
+textarea {outline: none;}
+
+button {
+  cursor: pointer;
+  transition: all .4s;
+}
+
+ol,
+ul {list-style: none;}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow-icons {
+  font-size: 8rem;
+  color: $light-color;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  background-color: $main-bg-color
+}
+
+// Buttons
+.btn {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.btn-arrow {
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  color: $btn-arrow-color;
+  z-index: 100;
+  cursor: pointer;
+  transition: all .4s;
+
+  &:hover {background-color: $btn-arrow-hover-color;}
+  &-prev {left: 0;}
+  &-next {right: 0;}
+}
