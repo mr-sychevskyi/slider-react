@@ -12,7 +12,7 @@ class SliderView extends Component {
     };
 
     componentDidMount() {
-        this.interval = setInterval(this.autoplay, 5000);
+        this.interval = setInterval(this.autoplay, 3000);
     }
 
     componentWillUnmount() {
