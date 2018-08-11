@@ -1,7 +1,6 @@
-# React Slider App
+# Slider App
 
-**Heroku**
-* https://react-slider-test-app.herokuapp.com
+**Demo:** https://react-slider-test-app.herokuapp.com
 
 **To local run this app**
 * npm install
@@ -11,4 +10,4 @@
 * localhost:8080
 
 **Technologies:**
-* React, Redux, ES6, ESlint
+* ES6, React, Redux, ESlint
