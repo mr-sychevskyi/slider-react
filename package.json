@@ -1,8 +1,8 @@
 {
   "name": "react-slider",
   "scripts": {
-    "build": "rimraf dist && cross-env API_KEY=3W6HwsPsBuULjX6cc9ZUcdJvdp-r_ziv webpack --mode=production --config config/webpack.config.js",
-    "start:dev": "cross-env API_KEY=3W6HwsPsBuULjX6cc9ZUcdJvdp-r_ziv webpack-dev-server --mode=development --config config/webpack.config.dev.js",
+    "build": "rimraf dist && cross-env API_KEY=OC9zdRla3z_mJLnJolHefCGgrKx7MOlH webpack --mode=production --config config/webpack.config.js",
+    "start:dev": "cross-env API_KEY=OC9zdRla3z_mJLnJolHefCGgrKx7MOlH webpack-dev-server --mode=development --config config/webpack.config.dev.js",
     "start": "npm run build && node ./app.js"
   },
   "dependencies": {
