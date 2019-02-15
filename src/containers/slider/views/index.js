@@ -66,7 +66,7 @@ class SliderView extends Component {
                 <div className="slider-inner">
                     <ul className="slider-inner__list">
                         {slides.map((item, i) =>
-                            <Slide key={item._id.$oid} slide={item} isCurrent={currentSlide === i}/>)};
+                            <Slide key={item._id.$oid} slide={item} isCurrent={currentSlide === i}/>)}
                     </ul>
                 </div>
 
